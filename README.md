@@ -35,3 +35,5 @@ POSTOS:
         longitude;
     ]
     # Apagar um posto: api/posto/{idPosto} (DELETE)
+
+    # Para rodar a aplicação é necessário ter o composer e rodar os comandos: php migrate | php artisan serve
