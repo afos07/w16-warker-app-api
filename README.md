@@ -1,6 +1,6 @@
-## API DESENVOLVIDA COM FINS DE ESTUDOS
+<h1>API DESENVOLVIDA COM FINS DE ESTUDOS</h1>
 
-## MÉTODOS API
+<h1>MÉTODOS API</h1>
 
 CIDADES:
     # Listar todos as cidades: api/cidade (GET)
