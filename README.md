@@ -28,25 +28,37 @@
     <li>
         Apagar uma cidade: api/cidade/{idCidade} (DELETE)
     </li>
-    <li></li>
 </ul>
 
-POSTOS:
-    # Listar todos os postos: api/posto (GET)
-    # Listar um posto em específico: api/postos/{idPosto} (GET)
-    # Cadastrar uma nova cidade: api/posto (POST) [
+<ul>
+    <h3>Postos:</h3>
+    <li>
+        Listar todos os postos: api/posto (GET)
+    </li>
+    <li>
+        Listar um posto em específico: api/postos/{idPosto} (GET)
+    </li>
+    <li>
+        Cadastrar um novo posto: api/posto (POST) [
         Parametros necessários:
-        cidade;
-        reservatorio;
-        latitude;
-        longitude;
-    ]
-    # Editar um posto: api/posto/{idPosto} (PUT) [
+            cidade;
+            reservatorio;
+            latitude;
+            longitude;
+        ]
+    </li>
+    <li>
+        Editar um posto: api/posto/{idPosto} (PUT) [
         Parametros necessários:
-        reservatorio;
-        latitude;
-        longitude;
-    ]
-    # Apagar um posto: api/posto/{idPosto} (DELETE)
+            reservatorio;
+            latitude;
+            longitude;
+        ]
+    </li>
+    <li>
+        Apagar um posto: api/posto/{idPosto} (DELETE)
+    </li>
+</ul>
 
-    # Para rodar a aplicação é necessário ter o composer e rodar os comandos: php migrate | php artisan serve
+
+# Para rodar a aplicação é necessário ter o composer e rodar os comandos: php migrate | php artisan serve
